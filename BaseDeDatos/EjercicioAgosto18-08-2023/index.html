@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EjercicioCreacionForm-BDD</title>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuToggle = document.getElementById("menu-toggle");
+            const navList = document.getElementById("nav-list");
+
+            menuToggle.addEventListener("click", function() {
+                navList.classList.toggle("active");
+                menuToggle.classList.toggle("active");
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+    <video autoplay muted loop id="video-background">
+        <source src="src/video/fondoweb.mp4" type="video/mp4">
+        <source src="src/video/fondoweb.mp4" type="video/webm">
+        Tu navegador no admite la etiqueta de video.
+    </video>
+    <audio autoplay loop>
+        <source src="src/audio/cancionfondo.mp3" type="audio/mpeg">
+        <source src="src/audio/cancionfondo.mp3"type="audio/ogg">
+        Tu navegador no admite la etiqueta de audio.
+    </audio>
+    
+  
+
+    <nav>
+
+        <div id="menu-toggle" class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+
+        <ul id="nav-list">
+            
+            <li><a href="https://www.linkedin.com/in/mayra-medina-294893229/" target="_blank"  class="botones" >May</a></li>
+            <li><a href="https://www.linkedin.com/in/andres-ramirez-herrera-631b91167/" target="_blank"  class="botones" >Andres</a></li>
+            <li><a href="https://www.linkedin.com/in/ricardo-modon-9515b6234/" target="_blank"  class="botones" >Ricardo</a></li>
+            <li><a href="https://github.com/nicolepenalbe1" target="_blank"  class="botones" >Nicol</a></li>
+            <li><a href="https://github.com/lucaslopez21" target="_blank"  class="botones" >Lucas</a></li>
+            <li><a href="https://github.com/Daisuarez" target="_blank"  class="botones" >Dai</a></li>
+            <li><a href="https://github.com/BottoFranco" target="_blank"  class="botones" >Franco</a></li>
+            <li><a href="https://github.com/JuannMV" target="_blank"  class="botones" >Juan</a></li>  
+            <li><a href="https://www.linkedin.com/in/santiago-bergerat-797b7b1ba/" target="_blank"  class="botones" >Santi</a></li>
+            
+        </ul>
+    </nav>
+
+    <div id="chat">
+    
+        <a href="mailto:huntcode.utn.2022@gmail.com" target="_blank" class="achat"> Contactanos</a>
+    </div> 
+
+ 
+ 
+
+
+    <aside id="der">
+        <h1 class="title"> Ingreso </h1>
+        <form>
+            <label for="usuario" class="">Usuario</label>
+            <input type="text" id="usuario" placeholder="usuario" required>
+  
+            <label for="password" class="">Contraseña</label>
+            <input type="password" id="password" placeholder="contraseña" required>
+  
+            <label for="email" class="">Email</label>
+            <input type="email" id="email" placeholder="email" required>
+                
+            <button type="submit" class=" enviar">ENVIAR</button>
+        </form>
+    </aside>
+
+
+    <div class="centered-text">
+        <h1 class="music-text rotate-text color-change-text">Team Hunt Code</h1>
+    </div>
+
+</div>
+</div>
+
+<footer id="footer">
+
+    COPYRIGHT © 2023 HUNT-CODE /UTN SAN RAFAEL 
+</footer>
+
+</body>
+</html>
