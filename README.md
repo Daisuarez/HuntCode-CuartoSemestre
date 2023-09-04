@@ -6,7 +6,7 @@
 # Repositorio HUNT CODE IV Semestre
 
 <div align="center">
-<img src="https://aleduran.com/wp-content/uploads/lenguajes-programacion-top.gif"](https://experienciajoven.com/wp-content/uploads/2023/01/programacion_gamer_001.gif" />
+<img src="https://aleduran.com/wp-content/uploads/lenguajes-programacion-top.gif"](https://experienciajoven.com/wp-content/uploads/2023/01/programacion_gamer_001.gif" align="center" style="width: 100% />
 </div>
 
 
