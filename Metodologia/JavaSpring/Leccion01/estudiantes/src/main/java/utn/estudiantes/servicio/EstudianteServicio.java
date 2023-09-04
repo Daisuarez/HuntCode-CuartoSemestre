@@ -1,5 +1,5 @@
 package utn.estudiantes.servicio;
 
-public class EstudianteServicio  implements iestudianteservicio{
+public abstract  class EstudianteServicio  implements iestudianteservicio{
 
 }

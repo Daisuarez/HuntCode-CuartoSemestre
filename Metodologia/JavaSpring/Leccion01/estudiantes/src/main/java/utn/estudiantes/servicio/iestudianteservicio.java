@@ -1,8 +1,9 @@
 package utn.estudiantes.servicio;
-import
+import utn.estudiantes.modelo.estudiantes2022;
+import java.util.List;
 public interface iestudianteservicio {
-    public List<Estudiante> listarEstudiantes();
-    public Estudiante buscarEstudiantePorId(Integer idEstudiante);
-    public void guardarEstudiante( Estudiante estudiante);
-    public void eliminarEstudiante(Estudiante estudiante);
+    public List<estudiantes2022> listarEstudiantes();
+    public estudiantes2022 buscarEstudiantePorId(Integer idEstudiante);
+    public void guardarEstudiante( estudiantes2022 estudiante);
+    public void eliminarEstudiante(estudiantes2022 estudiante);
 }
