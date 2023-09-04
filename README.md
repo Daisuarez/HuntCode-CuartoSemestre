@@ -30,6 +30,8 @@
 - :snake: Python
 - :floppy_disk: SQL
 - :globe_with_meridians:  JavaScript
+- :leaves: Spring boot -Java
+- :pager: Node Js
 
 
 
