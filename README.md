@@ -6,7 +6,7 @@
 # Repositorio HUNT CODE IV Semestre
 
 <div align="center">
-<img src="https://blog.trello.com/hs-fs/hubfs/giphy%20(13).gif?width=417&name=giphy%20(13).gif" align="center" style="width: 100%" />
+
  <img src= " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.troublefreepool.com%2Fmedia%2F73em-gif.176488%2F&psig=AOvVaw1qXMBgRyofnE48Z0S6rg44&ust=1693924629270000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCnw5CXkYEDFQAAAAAdAAAAABAI "/>
 </div>
 
