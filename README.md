@@ -24,6 +24,19 @@
 - :computer: Santiago Bergerat
 - :computer: Lucas Lopéz
 
+
+:heavy_check_mark: Primera Semana - Scrum Master Bergerat Santiago
+
+:heavy_check_mark: Segunda Semana - Scrum Master Botto Franco
+
+:heavy_check_mark: Tercera Semana - Scrum Master Lopez Lucas
+
+:heavy_check_mark: Cuarta Semana - Scrum Master Medina Mayra
+
+:heavy_check_mark: Quinta Semana - Scrum Master Modon Ricardo
+
+:heavy_check_mark: Sexta Semana - Scrum Master Peñalbe Nicol
+
 ### LENGUAJES:
 
 - :coffee:  Java
