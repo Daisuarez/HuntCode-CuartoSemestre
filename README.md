@@ -6,7 +6,7 @@
 # Repositorio HUNT CODE IV Semestre
 
 <div align="center">
-<img src="https://blog.trello.com/hs-fs/hubfs/giphy%20(13).gif?width=417&name=giphy%20(13).gif" align="center" style="width: 100%" />
+<img src="https://aleduran.com/wp-content/uploads/lenguajes-programacion-top.gif"](https://experienciajoven.com/wp-content/uploads/2023/01/programacion_gamer_001.gif" align="center" style="width:100%" />
 </div>
 
 
@@ -24,12 +24,27 @@
 - :computer: Santiago Bergerat
 - :computer: Lucas Lopéz
 
+
+:heavy_check_mark: Primera Semana - Scrum Master Bergerat Santiago
+
+:heavy_check_mark: Segunda Semana - Scrum Master Botto Franco
+
+:heavy_check_mark: Tercera Semana - Scrum Master Lopez Lucas
+
+:heavy_check_mark: Cuarta Semana - Scrum Master Medina Mayra
+
+:heavy_check_mark: Quinta Semana - Scrum Master Modon Ricardo
+
+:heavy_check_mark: Sexta Semana - Scrum Master Peñalbe Nicol
+
 ### LENGUAJES:
 
 - :coffee:  Java
 - :snake: Python
 - :floppy_disk: SQL
 - :globe_with_meridians:  JavaScript
+- :leaves: Spring boot -Java
+- :pager: Node Js
 
 
 
