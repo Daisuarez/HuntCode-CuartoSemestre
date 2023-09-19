@@ -19,6 +19,7 @@ productos.forEach((product) => {
         const repeatIndex = cart.findIndex((repeatProduct) => repeatProduct.id === product.id);
         if (repeatIndex !== -1) {
             cart[repeatIndex].quantity++;
+            displayCartCounter()
         } else {
             cart.push({
                 id: product.id,
@@ -27,6 +28,7 @@ productos.forEach((product) => {
                 quantity: 1, // Inicializa la cantidad en 1 cuando se agrega un nuevo producto
                 img: product.img,
             });
+            displayCartCounter()
         }
         console.log(cart);
     });
