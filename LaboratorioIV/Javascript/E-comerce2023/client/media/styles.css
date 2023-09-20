@@ -47,18 +47,18 @@
 
 .cart-btn{
     position: fixed;
-    top: 90vh;
-    right: 4rem;
-    background-color: rgb(9, 255, 161);
-    padding: 10px;
-    border-radius: 20%;
+    top: 88vh;
+    right: 1rem;
+    background-color: rgb(105, 106, 107);
+    padding: 5px;
+    border-radius: 50%;
     height: 5rem;
     width: 5rem;
     transition: transform 0.2s ease-in-out;
 }
 
 .cart-btn:hover{
-    transform: scale(1.6); /* Aumenta el tamaño del botón en un 20% */
+    transform: scale(1.2); /* Aumenta el tamaño del botón en un 20% */
     transition: transform 0.3s ease; /* Agrega una transición suave*/
 }
 
@@ -113,6 +113,24 @@ button:hover{
     text-align: center;
 }
 
+
+/* cart counter */
+
+.cart-counter {
+    display: none;
+    position: fixed;
+    top: 88vh;
+    right: 22px;
+    color: aliceblue;
+    text-align: center;
+    background-color: red;
+    padding: 2px;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    font-size: 15px;
+}
+
 /*MODAL-BODY */
 .modal-body {
    margin-bottom: 20px;
@@ -151,12 +169,13 @@ button:hover{
 }
 
 .quantity-btn-decrese,
-.quantity-btn-icrese {
+.quantity-btn-increase {
     color: black;
     cursor: pointer;
     font-size: 16px;
     width: 28px;
-    font-weight: bold;
+    font-weight: bolder;
+
 }
 
 .quantity-input{
