@@ -1,8 +1,29 @@
 *{
     box-sizing: border-box;  /* esto nos asegura que este incluido el alto y ancho de los elmentos con los bordes */
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 /* =========== Para una pagina simple de dos columnnas ================= */
+
+.contenedor{
+    position: relative;
+    margin:auto;
+    width:100%;
+    height: auto;
+
+}
+
+
+.fila{
+    position: relative;
+    margin:auto;
+    width:100%;
+    height: auto;
+}
 
 .menu{
     width: 25%;
