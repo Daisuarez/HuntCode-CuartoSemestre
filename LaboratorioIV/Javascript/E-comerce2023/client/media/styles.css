@@ -187,6 +187,25 @@ button:hover{
     font-weight: bold;
 }
 
+.btn-primary{
+    background-color: deepskyblue;
+    border-color: cyan;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    cursor:pointer;
+}
+
+
+.btn-primary:hover{
+    background-color: deepskyblue ;
+    border-color: cyan;
+}
+
+
 @media only screen and (max-width: 500px) {
     .product-img{
         display: none;;

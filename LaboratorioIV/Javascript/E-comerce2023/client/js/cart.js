@@ -97,9 +97,41 @@ const displayCart = () => {
         modalFooter.className="modal-footer";
         modalFooter.innerHTML = `
             <div class="total-price">Total: ${total} </div>
+            <button class="btn-primary" id="checkout-btn" > go to checkout </button>
+            <div id="button-checkout"> </div>
         `;
         modalContainer.append(modalFooter);
-};
+
+        const checkoutButton = document.getElementById("checkout-btn");
+checkoutButton.addEventListener("click", () => {
+    checkoutButton.remove();
+
+    const orderData = {
+        quantity: 1,
+        description: "Compra de ecomerce",
+        price: total, // Asegúrate de definir 'total' antes de utilizarlo
+    };
+
+    fetch("http://localhost:8080/create_preference", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(orderData),
+    })
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (preference) {
+        createCheckoutButton(preference.id);
+    })
+    .catch(function () {
+        alert("Algo Salió Mal");
+    });
+});
+
+
+
 
 cartBtn.addEventListener('click', displayCart);
 
@@ -124,4 +156,4 @@ const displayCartCounter = () => {
     } else {
         cartCounter.style.display = "none"; // Oculta el contador si no hay elementos en el carrito
     }
-};
+}};
