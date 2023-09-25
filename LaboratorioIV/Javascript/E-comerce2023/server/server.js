@@ -6,7 +6,7 @@ const path = require("path");
 
 // REPLACE WITH YOUR ACCESS TOKEN AVAILABLE IN: https://developers.mercadopago.com/panel
 mercadopago.configure({
-	access_token: "<ACCESS_TOKEN>",
+	access_token: "TEST-1582620536270025-092015-82f26602fcdfef12bae14273265c3252-372526359",
 });
 
 
@@ -15,7 +15,12 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "../cliente"))); //mojral de la api
 
-app.use(cors());
+const corsOptions = {
+	origin: 'http://localhost:8080',
+  };
+  
+  app.use(cors(corsOptions));
+
 
 app.get("/", function (req, res) {
 	path.resolve(__dirname, "..", "client", "index.html"); // aca lk mando a mi index
