@@ -162,4 +162,5 @@ const displayCartCounter = () => {
     } else {
         cartCounter.style.display = 'none';
     }
+    //funcioanndo correctamente, revisado el error de display no defined
 };
