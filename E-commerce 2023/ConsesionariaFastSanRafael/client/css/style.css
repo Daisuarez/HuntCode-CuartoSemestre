@@ -10,14 +10,18 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /* 1 rem = 10px */    
+   
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 2;
+  
 }
 
 /** Globales **/
@@ -28,7 +32,7 @@ body {
 a {
     text-decoration: none;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .header{
     font-family: var(--fuenteHeading);
     line-height: 1.2;
 }

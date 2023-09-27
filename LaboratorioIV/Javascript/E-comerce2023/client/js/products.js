@@ -1,4 +1,5 @@
 const productos =  [
+
     {
         id : 1,
         productName : "Camaro (Oferta Solo Team Hunt Code) ",
@@ -43,3 +44,5 @@ const productos =  [
     }
 
 ];	    
+
+

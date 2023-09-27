@@ -1,0 +1,87 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.logo{
+    max-width: 9rem;
+    
+}
+
+.nav-list{
+    display: flex;
+    list-style-type:none;
+    text-transform: uppercase;
+
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display:none; /*  esto hace que no se muestre en el menu normal el botoncito, no lo toquen por las dudas*/
+    border:0;
+    font-size: 1.35rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 550px){
+    .abrir-menu,
+    .cerrar-menu{
+        display:block; /*  esto hace que no se muestre en el menu normal el botoncito, no lo toquen por las dudas*/
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+    }
+
+    .nav.visible{
+        opacity:1;
+        visibility: visible;;
+    }
+
+
+    .nav-list{
+       flex-direction: column;
+       align-items: end;
+
+    }
+
+    .nav-list li a {
+        color: white;
+
+ 
+     }
+
+
+
+
+
+}
+
+
