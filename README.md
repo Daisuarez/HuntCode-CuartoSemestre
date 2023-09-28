@@ -37,6 +37,13 @@
 
 :heavy_check_mark: Sexta Semana - Scrum Master Peñalbe Nicol
 
+:heavy_check_mark: Septima Semana - Scrum Master Ramírez Andrés
+
+:heavy_check_mark: Octava Semana - Scrum Master Suarez Daiana
+
+:heavy_check_mark: Novena Semana - Scrum Master Viñas Juan
+
+
 ### LENGUAJES:
 
 - :coffee:  Java
