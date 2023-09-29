@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FastCars</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Fast Cars</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"  >
+    <link rel="stylesheet" type="text/css" href="../css/header.css" " >
+    <link rel="stylesheet" type="text/css" href="../css/style.css"  >
+    <link rel="stylesheet" type="text/css" href="../css/mediaqueries.css"  >
 
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style.css">
-
-    <link rel="stylesheet" href="../css/header.css">
+    <script src="https://kit.fontawesome.com/d54fb62c44.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../src/img/logo.png" type="auto logo">
+    <script src="../js/header.js"></script>
 </head>
-<body>
 
+<body>
     <header>
-        <img class="logo" src="../src/logo.png" alt="Logo- eader">
-        <button class="abrir-menu" id="abrir" type="button"><img src="../src/list.svg"></button>
-        <nav class="nav" id="nav">
-            <button class="cerrar-menu" id="cerrar" type="button"><img src="../src/x-square.svg"></button>
-            <ul class="nav-list">
-                <li><a href="#" class="icon-inicio"><span class="texto">Inicio</span><img src="inicio.svg" alt="Inicio" class="icono"></a></li>
-                <li><a href="#" class="icon-inicio"><span class="texto">Marcas</span><img src="inicio.svg" alt="Inicio" class="icono"></a></li>
-                <li><a href="#" class="icon-inicio"><span class="texto">Planes</span><img src="inicio.svg" alt="Inicio" class="icono"></a></li>
-                <!--<li><a href="#" class="icon-inicio"><span class="texto">Accesorios</span><img src="inicio.svg" alt="Inicio" class="icono"></a></li>-->
-                <li><a href="#" class="icon-inicio"><span class="texto">Nosotros</span><img src="inicio.svg" alt="Inicio" class="icono"></a></li>
-                <li><a href="#" class="icon-inicio"><span class="texto">Contacto</span><img src="inicio.svg" alt="Inicio" class="icono"></a></li>
+        <article>
+            <a class="logo" href="index.html"><img src="../src/img/logo.png" alt="Logo"></a>
+        </article>
+
+
+        <button id="menu-icon-mobile">
+            <i class="fas fa-bars" id="menu-mobile-icon-open"></i>
+            <i class="fas fa-times" id="menu-mobile-icon-close"></i>
+        </button>
+        <nav>
+            <ul id="menu-first">
+                <li class="menu-first-item-class active">
+                    <a href="#">Inicio</a>
+                </li>
+                
+                <li class="menu-first-item-class">
+                    <a href="#Marcas">Marcas</a>
+                </li>
+                <li class="menu-first-item-class">
+                    <a href="#Planes">Planes</a>
+                </li>
+                <li class="menu-first-item-class">
+                    <a href="#Nosotros"> Nosotros</a>
+                </li>
+                <li class="menu-first-item-class">
+                    <a href="#Contacto">Contacto</a>
+                </li>
+                <li>
+                    <!-- Barra de redes sociales en responsivo
+                    <article class="ico">
+                        <a class="ico-1" href="" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a class="ico-2" href="" target="_blank"><i
+                                class="fab fa-instagram-square"></i></a>
+                       
+                    </article>-->
+                </li>
             </ul>
         </nav>
     </header>
 
+    <main>
+
+        <!--´Primera parte de la web-->
+        <section id="slider"> 
+            <article class="slider_contents_row">
+                <h1>
+                    <em>Tu auto, tu nueva <span>aventura</span> </em>
+                </h1>
+                <a href="#" class="btn-light">Comprar</a>
+            </article>
+
+            <article class="slider_background_video_animation">
+                <video src="../src/img/videoportadaweb.mp4" autoplay muted loop></video>
+            </article>
+        </section>
 
 
+      
+    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="../js/header.js"></script>
+
+    <footer>
+    
+       
+    </footer>
 </body>
+
 </html>

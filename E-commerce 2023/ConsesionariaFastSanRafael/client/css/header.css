@@ -1,87 +1,102 @@
 
+body.mobile-menu-active {
+    overflow: hidden;
+}
+
 header{
+    background-color:rgba(0,0,0,0.9);
+    height: 5rem;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 2rem;
-    background-color: rgb(0, 0, 0);
-    font-family: sans-serif;
+    align-items: center;
+    position: fixed;
+    z-index: 4;
+    top: 0px;
+    border-bottom:1px solid #03c4ff;
+}
+
+/* main menu */
+
+.menu-first-item-class {
+    margin: 0 10px; 
+}
+
+.menu-first-item-class a {
+    margin-right: 40px;
+    color: #fff;
+    text-transform: uppercase;
+  
+    font-size: 13px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.menu-first-item-class a:hover,
+.menu-first-item-class.active a {
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #03c4ff;
+    color:#03c4ff;
 }
 
 .logo{
-    max-width: 9rem;
-    
+    margin-left: 40px;
+    z-index: 4;
 }
 
-.nav-list{
+
+
+.logo img{
+    width: 6rem;
+    height: 5rem;
+}
+
+
+/* PARTE DE ICONOS*/
+
+#menu-icon-mobile  {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fcf6f6;
+    font-size: 26px;
+    z-index: 2;
+    margin-right: 30px;
+}
+
+#menu-mobile-icon-close {
+    display: none;
+}
+
+/* closed icon */
+
+body.mobile-menu-active #menu-mobile-icon-close {
+    display: block;   
+    color: #03c4ff;
+}
+
+/* hamburger icon */
+
+body.mobile-menu-active #menu-mobile-icon-open {
+    display: none;   
+}
+
+nav {
+    display: none;
+}
+
+body.mobile-menu-active nav {
+    display: block;
+}
+
+nav #menu-first {
     display: flex;
-    list-style-type:none;
-    text-transform: uppercase;
-
-    gap: 1rem;
 }
 
-.nav-list li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
+/* social media icon - mobil-menu*/
 
-.abrir-menu,
-.cerrar-menu{
-    display:none; /*  esto hace que no se muestre en el menu normal el botoncito, no lo toquen por las dudas*/
-    border:0;
-    font-size: 1.35rem;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-
-
-@media screen and (max-width: 550px){
-    .abrir-menu,
-    .cerrar-menu{
-        display:block; /*  esto hace que no se muestre en el menu normal el botoncito, no lo toquen por las dudas*/
-    }
-
-    .nav {
-        opacity: 0;
-        visibility: hidden;
-
-        gap: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background-color: black;
-        padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
-    }
-
-    .nav.visible{
-        opacity:1;
-        visibility: visible;;
-    }
-
-
-    .nav-list{
-       flex-direction: column;
-       align-items: end;
-
-    }
-
-    .nav-list li a {
-        color: white;
-
- 
-     }
-
-
-
-
-
-}
+.ico{
+    display: none;
+  }
 
 
