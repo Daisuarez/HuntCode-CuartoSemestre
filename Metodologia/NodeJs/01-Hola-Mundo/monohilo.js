@@ -20,8 +20,7 @@ setInterval(function() {
     console.log('sigo activo --->  '+ formatoFechaHora); 
     i++;
     if( i ===10){
-        console.log('forzamos el error');
-        var a = 3+z;
+        console.log('llegamos  a un multiplo de 10');
     }
-},5000);
+},1000);
 console.log("Hola segunda instruccion");
