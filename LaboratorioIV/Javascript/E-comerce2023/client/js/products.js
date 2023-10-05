@@ -5,6 +5,7 @@ const productos =  [
         productName : "Camaro (Oferta Solo Team Hunt Code) ",
         price:10,
         quantity: 1,
+        state:"Used",
         img :"../media/camara.jpeg",
     },
     {
@@ -12,6 +13,7 @@ const productos =  [
         productName : "chevrolet",
         price:9500,
         quantity: 1,
+        state:"New",
         img :"../media/chevrolet.jpeg",
     },
     {
@@ -19,6 +21,7 @@ const productos =  [
         productName : "Chebrolet Blue Soja ",
         price:7500,
         quantity: 1,
+        state:"Used",
         img :"../media/chevroletazul.jpeg",
     },
     {
@@ -26,6 +29,7 @@ const productos =  [
         productName : "Ford Orange ",
         price:2800,
         quantity: 1,
+        state:"New",
         img :"../media/ford.jpeg",
     },
     {
@@ -33,6 +37,7 @@ const productos =  [
         productName : "Toyota XL",
         price:3200,
         quantity: 1,
+        state:"New",
         img :"../media/Toyota.jpeg",
     },
     {
@@ -40,6 +45,7 @@ const productos =  [
         productName : "Oferta Automoviles ",
         price:200,
         quantity: 1,
+        state:"Used",
         img :"../media/oferta.jpeg",
     }
 

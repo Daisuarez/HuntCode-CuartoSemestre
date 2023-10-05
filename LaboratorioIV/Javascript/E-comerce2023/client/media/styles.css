@@ -205,7 +205,9 @@ button:hover{
     border-color: cyan;
 }
 
-
+P{
+    color:red;
+}
 @media only screen and (max-width: 500px) {
     .product-img{
         display: none;;
