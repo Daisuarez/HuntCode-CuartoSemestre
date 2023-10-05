@@ -8,6 +8,7 @@ productos.forEach((product) => {
     <img src="${product.img}"> 
     <h3>${product.productName}</h3>
     <p>USD ${product.price}</p>
+    <p>Estado: ${product.state}</p>
     `;
     shopContent.append(content);
 
@@ -25,6 +26,7 @@ productos.forEach((product) => {
                 id: product.id,
                 productName: product.productName,
                 price: product.price,
+                state: state.state,
                 quantity: 1, // Inicializa la cantidad en 1 cuando se agrega un nuevo producto
                 img: product.img,
             });
