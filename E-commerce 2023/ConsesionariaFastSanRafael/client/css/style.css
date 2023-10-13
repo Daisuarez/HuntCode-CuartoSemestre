@@ -283,6 +283,160 @@ span{
 }
 
 
+.secondSection{
+    display: flex;
+    align-items: center;
+    columns: 200px 3;
+    column-gap: 30px;
+    background-color: black;
+    border: 1px solid #000; 
+    height: 80vh;
+    padding: 25px;
+
+}
+.about_h2{
+    background-color:rgba(0,0,0,0.9);
+    border-radius: 20px;
+    padding: 1rem;
+    width: 100% ;
+}
+.aboutSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Para centrar horizontalmente */
+    background: url(../src/img/fondoterceraseccion\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #000; 
+    height: 80vh;
+    padding: 20px;
+    position: relative;
+  
+
+}
+
+.paragraphAbout {
+    
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 10px; 
+    gap: 2px;
+}
+
+.paragraphAbout p{
+    background-color:rgba(0,0,0,0.9);
+}
+.aboutArticle {
+    width: 50%; 
+}
+
+.imageaboutArticle {
+    width: 50%; 
+}
+.imageaboutArticle img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
+
+
+.contactSection {
+   color: white ;
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+}
+
+.contactSection h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contactDetails, .contactForm {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.contactDetails h3, .contactForm h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+:placeholder-shown{
+    color: white;
+}
+.contactForm input, .contactForm textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.contactForm button {
+    background-color: #03C4FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: #03C4FF;
+}
+
+
+/* Estilo del botón de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición vertical según tus preferencias */
+    right: 20px; /* Ajusta la posición horizontal según tus preferencias */
+    z-index: 1000; /* Asegura que esté en la parte superior */
+}
+
+.whatsapp-button a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color:  rgba(0, 0, 0, 0.8); /* Color de fondo de WhatsApp */
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+    transition: transform 0.2s ease;
+}
+
+.whatsapp-button a img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.whatsapp-button a:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+}
+
+
+
+
 
 /* animaciones*/
 
