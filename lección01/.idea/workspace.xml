@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="417b212d-6196-4fae-b59e-7fa15d54a837" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/doc_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_clsse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/Clase 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/capa_datos_usuario/capa_datos.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/capa_datos_usuario/conexion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/capa_datos_usuario/cursor_del_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/capa_datos_usuario/logger_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/capa_datos_usuario/usuario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 1/capa_datos_usuario/usuario_dao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/Clase01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/Sistema_numeracion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/VALORES_INFINITOS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/tipo_bool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/tipo_float.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/tipo_nan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaboratorioIV/Python/Clase 2/tipo_str.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WZhsspG7fmBkdbs0Uk0pMg09X8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="417b212d-6196-4fae-b59e-7fa15d54a837" name="Changes" comment="" />
+      <created>1696946221995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696946221995</updated>
+    </task>
+    <servers />
+  </component>
+</project>
